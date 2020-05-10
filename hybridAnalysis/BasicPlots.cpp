@@ -190,7 +190,8 @@ void BasicPlots(TString fname, TString Directory, TString OutString)
     //hVertexPosY->SetMaximum(220);
     hVertexPosY->SetMinimum(0);
     
-    TH1F *hVertexPosZ= new TH1F("hVertexPosZ", "hVertexPosZ", 10, 140 , 440);
+    //TH1F *hVertexPosZ= new TH1F("hVertexPosZ", "hVertexPosZ", 10, 140 , 440);
+    TH1F *hVertexPosZ= new TH1F("hVertexPosZ", "hVertexPosZ", 10, 1480 , 1780);
     hVertexPosZ->GetXaxis()->SetTitle( "vertex Z position [mm]" );
     //hVertexPosZ->SetMaximum(220);
     hVertexPosZ->SetMinimum(0);
