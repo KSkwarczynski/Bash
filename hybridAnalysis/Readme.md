@@ -1,3 +1,4 @@
-Script use in hybrid analysis
+Script which help to prepare envirorment for Hybrid Analysis, should be executed in numerated order.
 
-EXPAND
+## Macros description
+**0_MakeAnalysisStructure.sh**
