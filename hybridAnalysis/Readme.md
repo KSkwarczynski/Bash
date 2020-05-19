@@ -11,7 +11,7 @@ Importart note is to make sure that path in scripts are properly set.
 *5.SkimPreparation.sh* - Because you have a lot of reco file but esspecailay for data you will get like up to 4 events per one file this scripts just creates a list of files you are interested in. Scripts uses `ListCreator.cpp`. </br>
 *6.SkimFromCSVxxxxx.sh* - all scripts extract simply extract desired vertex events from reco file. Reco files takes a lot of space so it is for convinience. For convinience it is good idea to split file in `$RUNPATH/scripts/filelistReco/SkimmedRun7DATAprod6T-FGD1-antinu_00`, and then create a few copies of given script changing number of input file, **line 14** `input="$RUNPATH/scripts/filelistReco/SkimmedRun7DATAprod6T-FGD1-antinu_00`. </br>
 *7.HADDxxxxx.sh* - after you Skimmed reco files you have to combine them in one, this script also uses `removeFgdIsoTrackEvents.exe` to further clean sample from undesired events. </br>
-#From here you have create hybrid which are located in `$RUNPATH/FGDx`
+# From here you have create hybrid which are located in `$RUNPATH/FGDx`
 *8.CreatePlots.sh* - after you have prepared hybrids this script simply takes most important files and prepares ground for plots. </br>
 *9.BasicPlots.sh* - This could be in fact run after *4.ExtractFromROOT.sh*, creates plot presenting selected events. </br>
 *PGplots.cpp* - this is bonus to create plots of created PG events. </br>
