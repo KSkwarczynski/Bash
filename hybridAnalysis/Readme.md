@@ -8,4 +8,5 @@ Importart note is to make sure that path in scripts are properly set.
 *3_HighlandSelectionAntinu.sh* - proccess anal antineutrino sample, you have to run it twice with different FGD setting. </br>
 *3_HighlandSelectionNu.sh* - proccess anal neutrino sample, you have to run it twice with different FGD setting. </br>
 *4.ExtractFromROOT.sh* - after you are done with Highland you can extract vertex position and other neccesary information from them, this scripts uses 'RunExtractor.cpp' </br>
-*5.SkimPreparation.sh*
+*5.SkimPreparation.sh* - Because you have a lot of reco file but esspecailay for data you will get like up to 4 events per one file this scripts just creates a list of files you are interested in. Scripts uses 'ListCreator.cpp'. </br>
+*6.SkimFromCSV****.sh*
