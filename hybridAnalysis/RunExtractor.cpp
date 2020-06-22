@@ -234,10 +234,9 @@ void RunExtractor(TString fname, TString txtName, int mode) //TODO dodaj sceizke
             if(mode==2) FileVertexOut<<run<<" "<<subrun<<" "<<evt<<" "<<selvtx_pos[0]<<" "<<selvtx_pos[1]<<" "<<selvtx_pos[2]<<" "<<selvtx_pos[3]<<endl;
             if(mode==3) FileVertexOut<<run<<" "<<subrun<<" "<<evt<<" "<<selmu_dir[0]<<" "<<selmu_dir[1]<<" "<<selmu_dir[2]<<endl;
             hCosTheta->Fill(selmu_costheta[0]);
-            
             SavedVericesCounter++;
         }
-        if(SavedVericesCounter>=1000) break;
+        if(SavedVericesCounter>=2300) break;
     }
     
     if(mode==0)

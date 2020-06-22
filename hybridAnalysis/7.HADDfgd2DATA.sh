@@ -16,7 +16,7 @@ source setup.sh
 RUNPATH=/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/
 
 cd $RUNPATH/recoFiltr/FGD2/Data
-hadd $RUNPATH/FinalRecoFiles/Before/Run7prod6-FGD2-Data-Filtr.root `ls -1 *.root`
+hadd $RUNPATH/FinalRecoFiles/Before/Run7prod6T-FGD2-Data-Filtr.root `ls -1 *.root`
 
 cd $RUNPATH/FinalRecoFiles/
-/mnt/home/kskwarczynski/T2K/work/v11r31/highland2/hybrid/v0r0/Linux-x86_64/removeFgdIsoTrackEvents.exe  Before/Run7prod6-FGD2-Data-Filtr.root -o Run7prod6-FGD2-Data-Filtr.root
+/mnt/home/kskwarczynski/T2K/work/v11r31/highland2/hybrid/v0r0/Linux-x86_64/removeFgdIsoTrackEvents.exe  Before/Run7prod6T-FGD2-Data-Filtr.root -o Run7prod6T-FGD2-Data-Filtr.root

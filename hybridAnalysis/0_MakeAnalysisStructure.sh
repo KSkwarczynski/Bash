@@ -16,9 +16,10 @@ mkdir Data
 mkdir MC
 cd ../
 mkdir FGD2
+cd FGD2
 mkdir Data
 mkdir MC
-cd ../
+cd ../../
 #ROZBUDUJ TO DODAJC FGD1/FGD2 i nu antinu
 mkdir AfterSelections
 mkdir recoFiles
@@ -37,15 +38,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .
@@ -57,15 +76,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .
@@ -85,15 +122,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .
@@ -105,15 +160,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .
@@ -132,15 +205,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .
@@ -152,15 +243,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .
@@ -190,15 +299,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .
@@ -210,15 +337,33 @@ cd pion
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/pion/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/pion/3-ww-createHitFiles.py .
+cd ../
+mkdir pionMinus
+cd pionMinus
+mkdir data
+mkdir JobsOutput
+cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/1_luna-generate_particles.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/2_luna-skimHitInfo.py .
+cp $DIRECTORY/scripts/FilesForStep2/pionMinus/3-ww-createHitFiles.py .
 cd ../
 mkdir proton
 cd proton
 mkdir data
 mkdir JobsOutput
 cp $DIRECTORY/scripts/FilesForStep2/generate_particles.cfg .
+cp $DIRECTORY/scripts/FilesForStep2/0.split1.sh .
+cp $DIRECTORY/scripts/FilesForStep2/0.splitReversed.sh .
+cp $DIRECTORY/scripts/FilesForStep2/hybridRun7.sh .
 cp $DIRECTORY/scripts/FilesForStep2/proton/1_luna-generate_particles.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/2_luna-skimHitInfo.py .
 cp $DIRECTORY/scripts/FilesForStep2/proton/3-ww-createHitFiles.py .

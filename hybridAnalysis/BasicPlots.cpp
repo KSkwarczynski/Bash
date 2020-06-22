@@ -191,14 +191,14 @@ void BasicPlots(TString fname, TString Directory, TString OutString)
     hVertexPosY->SetMinimum(0);
     
     //TH1F *hVertexPosZ= new TH1F("hVertexPosZ", "hVertexPosZ", 10, 140 , 440);
-    TH1F *hVertexPosZ= new TH1F("hVertexPosZ", "hVertexPosZ", 10, 1480 , 1780);
+    TH1F *hVertexPosZ= new TH1F("hVertexPosZ", "hVertexPosZ", 7, 1474 , 1807);
     hVertexPosZ->GetXaxis()->SetTitle( "vertex Z position [mm]" );
     //hVertexPosZ->SetMaximum(220);
     hVertexPosZ->SetMinimum(0);
     
     if (vertexFile.is_open())
     {
-        for(int i=0; i<1000 ; i++)
+        for(int i=0; i<NlineVertex; i++)
         {
             vertexFile >> run >> subrun >> evt >> selvtx_pos[0] >> selvtx_pos[1] >> selvtx_pos[2] >> selvtx_pos[3];
             hVertexPosX->Fill(selvtx_pos[0]);

@@ -15,26 +15,42 @@ RUNPATH=/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/
 
 #FGD1
 cd $RUNPATH/FGD1/antineutrino/Data/pion/nd280_hybrid_histo
-hadd $RUNPATH/FGD1/antineutrino/plots/final_pion_data_tree.root `ls -1 *.root`
+hadd $RUNPATH/FGD1/antineutrino/plots/final_pionP_data_tree.root `ls -1 *.root`
+
+cd $RUNPATH/FGD1/antineutrino/Data/pionMinus/nd280_hybrid_histo
+hadd $RUNPATH/FGD1/antineutrino/plots/final_pionM_data_tree.root `ls -1 *.root`
 
 cd $RUNPATH/FGD1/antineutrino/Data/proton/nd280_hybrid_histo
 hadd $RUNPATH/FGD1/antineutrino/plots/final_proton_data_tree.root `ls -1 *.root`
 
+#MC
+
 cd $RUNPATH/FGD1/antineutrino/MC/pion/nd280_hybrid_histo
-hadd $RUNPATH/FGD1/antineutrino/plots/final_pion_mc_tree.root `ls -1 *.root`
+hadd $RUNPATH/FGD1/antineutrino/plots/final_pionP_mc_tree.root `ls -1 *.root`
+
+cd $RUNPATH/FGD1/antineutrino/MC/pionMinus/nd280_hybrid_histo
+hadd $RUNPATH/FGD1/antineutrino/plots/final_pionM_mc_tree.root `ls -1 *.root`
 
 cd $RUNPATH/FGD1/antineutrino/MC/proton/nd280_hybrid_histo
 hadd $RUNPATH/FGD1/antineutrino/plots/final_proton_mc_tree.root `ls -1 *.root`
 
 #FGD2
 cd $RUNPATH/FGD2/antineutrino/Data/pion/nd280_hybrid_histo
-hadd $RUNPATH/FGD2/antineutrino/plots/final_pion_data_tree.root `ls -1 *.root`
+hadd $RUNPATH/FGD2/antineutrino/plots/final_pionP_data_tree.root `ls -1 *.root`
+
+cd $RUNPATH/FGD2/antineutrino/Data/pionMinus/nd280_hybrid_histo
+hadd $RUNPATH/FGD2/antineutrino/plots/final_pionM_data_tree.root `ls -1 *.root`
 
 cd $RUNPATH/FGD2/antineutrino/Data/proton/nd280_hybrid_histo
 hadd $RUNPATH/FGD2/antineutrino/plots/final_proton_data_tree.root `ls -1 *.root`
 
+#MC
+
 cd $RUNPATH/FGD2/antineutrino/MC/pion/nd280_hybrid_histo
-hadd $RUNPATH/FGD2/antineutrino/plots/final_pion_mc_tree.root `ls -1 *.root`
+hadd $RUNPATH/FGD2/antineutrino/plots/final_pionP_mc_tree.root `ls -1 *.root`
+
+cd $RUNPATH/FGD2/antineutrino/MC/pionMinus/nd280_hybrid_histo
+hadd $RUNPATH/FGD2/antineutrino/plots/final_pionM_mc_tree.root `ls -1 *.root`
 
 cd $RUNPATH/FGD2/antineutrino/MC/proton/nd280_hybrid_histo
 hadd $RUNPATH/FGD2/antineutrino/plots/final_proton_mc_tree.root `ls -1 *.root`
