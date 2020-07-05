@@ -20,3 +20,11 @@ root -l -q -b 'BasicPlots.cpp("vertexSkimRun7DATAprod6T-FGD2-antinu.txt" ,"/mnt/
 
 root -l -q -b 'BasicPlots.cpp("vertexSkimRun7MCprod6T-FGD1-antinu.txt" ,"/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/scripts", "Run7MCprod6T-FGD1-antinu")'
 root -l -q -b 'BasicPlots.cpp("vertexSkimRun7MCprod6T-FGD2-antinu.txt" ,"/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/scripts", "Run7MCprod6T-FGD2-antinu")'
+
+
+root -l -q -b 'BasicPlotsComb.cpp("vertexSkimRun7DATAprod6T-FGD1-antinu.txt","vertexSkimRun7MCprod6T-FGD1-antinu.txt","/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/scripts", "Run7DATAandMCprod6T-FGD1-antinu")'
+root -l -q -b 'BasicPlotsComb.cpp("vertexSkimRun7DATAprod6T-FGD2-antinu.txt","vertexSkimRun7MCprod6T-FGD2-antinu.txt","/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/scripts", "Run7DATAandMCprod6T-FGD2-antinu")'
+
+
+root -l -q -b 'SelmuPlot.cpp("Run7DATAprod6T-FGD1-antinu.root","Run7MCprod6T-FGD1-antinu.root", "/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/",  "Run7DataMCprod6T-FGD1-antinu-selmuCosTheta", 2300)'
+root -l -q -b 'SelmuPlot.cpp("Run7DATAprod6T-FGD2-antinu.root","Run7MCprod6T-FGD2-antinu.root","/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/", "Run7DataMCprod6T-FGD2-antinu-selmuCosTheta" , 2300)'
