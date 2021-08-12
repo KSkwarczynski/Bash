@@ -1,4 +1,4 @@
-Path=https://nextcloud.nms.kcl.ac.uk/remote.php/dav/files/ASGReader/ASG/OA2021/ND280/MC/
+Path=https://nextcloud.nms.kcl.ac.uk/remote.php/dav/files/kamilskwarczynski/ASG/OA2021/ND280/MC/
 
 Password=WhatAreYouLookingFor?
 
