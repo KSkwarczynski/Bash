@@ -1,14 +1,10 @@
-#!/bin/bash
+while true; do
+  
+  memory=$(grep VmRSS /proc/24983/status)
 
-if [[ $# -ne 1 ]]; then
-  echo "Need PID of process"
-  exit
-fi
+  #secs=$(ps -p ${PID} -o etimes= )
 
-PID=$1
-
-memory=$(grep VmRSS /proc/${PID}/status)
-
-secs=$(ps -p ${PID} -o etimes= )
-
-echo "${secs} ${memory}"
+  #echo "${memory}"
+  echo "${memory}" >> some_file_name
+  sleep 0.2;
+done
