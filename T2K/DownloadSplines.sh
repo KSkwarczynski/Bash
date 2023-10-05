@@ -1,4 +1,4 @@
-Path=https://nextcloud.nms.kcl.ac.uk/remote.php/dav/files/ASGReader/ASG/OA2021/ND280/MC/
+Path=https://nextcloud.nms.kcl.ac.uk/remote.php/dav/files/ASGReader/ASG/OA2021/ND280/MC/NonMirrored_Splines/v7_UpdatedKnot
 
 curl -u ASGReader:LWDH6-9bk7j-axan8-2zJbG-ooQ6k ${Path}run2aMCsplines.root --output run2aMCsplines.root
 
