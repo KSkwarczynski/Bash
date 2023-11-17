@@ -2,14 +2,18 @@
 #PBS -m bea
 DIRECTORY=/mnt/home/share/t2k/kskwarczynski/hybrid_analysis/hybridRun7/
 
-dirac-dms-find-lfns Path=/t2k.org/nd280/production006/T/rdp/ND280/00012000_00012999/anal> Run7DataAnal.txt
-dirac-dms-get-file Run7DataAnal.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-find-lfns Path=/t2k.org/nd280/production007/E/rdp/ND280/00009000_00009999/anal> Run4DataAnal.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-get-file Run4DataAnal.txt
 
-dirac-dms-find-lfns Path=/t2k.org/nd280/production006/T/rdp/ND280/00012000_00012999/reco> Run7DataReco.txt
-dirac-dms-get-file Run7DataReco.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-find-lfns Path=/t2k.org/nd280/production007/E/rdp/ND280/00009000_00009999/reco> Run4DataReco.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-get-file Run4DataReco.txt
 
-dirac-dms-find-lfns Path=/t2k.org/nd280/production006/T/mcp/anti-neut_D/2015-08-water/magnet/run7/reco> Run7McReco.txt
-dirac-dms-get-file Run7McReco.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-find-lfns Path=/t2k.org/nd280/production007/E/mcp/neut_5.6.4.1_p7c1/2010-11-air/magnet/run4/reco> Run4McReco.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-get-file Run4McReco.txt
 
-dirac-dms-find-lfns Path=/t2k.org/nd280/production006/T/mcp/anti-neut_D/2015-08-water/magnet/run7/anal> Run7McAnal.txt
-dirac-dms-get-file Run7McAnal.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-find-lfns Path=/t2k.org/nd280/production007/E/mcp/neut_5.6.4.1_p7c1/2010-11-air/magnet/run4/anal> Run4McAnal.txt
+/mnt/home/kskwarczynski/T2K_OA/Software/dirac_ui/diracos/bin/dirac-dms-get-file Run4McAnal.txt
+
+
+
+
