@@ -1,0 +1,1 @@
+openssl x509 -x509toreq -in kskwarczynski.crt -out req.pem -signkey kskwarczynski.key
